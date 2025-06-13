@@ -1,18 +1,16 @@
-# 📊 Carbon Emissions SQL Analysis Project
-
-![Banner Image](https://img.freepik.com/free-vector/flat-woman-analyzes-ways-reduce-co2-emissions-climate-impact-from-factories_387295953.htm)  
+# Carbon Emissions SQL Analysis Project
 *A real-world data analytics case study using SQL*
 
 ---
 
-## 🌍 About the Project
+## About the Project
 
 A comprehensive **SQL-based data analysis** project focused on global **carbon emissions**. This project includes structured queries for trend analysis, year-on-year emission growth, and international comparisons using advanced SQL functions like `JOIN`, `CASE`, and `LAG`.  
-✅ Perfect for learning and showcasing **real-world data analytics** and **SQL portfolio skills**.
+Perfect for learning and showcasing **real-world data analytics** and **SQL portfolio skills**.
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
 - **Source**: Cleaned CSV dataset based on publicly available Kaggle CO₂ emissions data  
 - **Columns**:
@@ -23,7 +21,7 @@ A comprehensive **SQL-based data analysis** project focused on global **carbon e
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Database**: MySQL 8.0  
 - **Interface**: MySQL Workbench or Command Line  
@@ -36,7 +34,7 @@ A comprehensive **SQL-based data analysis** project focused on global **carbon e
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Analyze CO₂ emission trends globally and for individual countries  
 - Identify highest emitters and reduction patterns  
@@ -45,7 +43,7 @@ A comprehensive **SQL-based data analysis** project focused on global **carbon e
 
 ---
 
-## 📌 SQL Tasks Performed
+## SQL Tasks Performed
 
 1. **Top Countries by Total CO₂ Emissions**  
 2. **Global Emissions Trends (Year-wise)**  
@@ -58,11 +56,11 @@ A comprehensive **SQL-based data analysis** project focused on global **carbon e
 9. **Emissions Comparison: 1990 vs 2020**  
 10. **Top 20 Emitting Countries of All Time**
 
-> 📂 Each task is separated and documented within the SQL file.
+> Each task is separated and documented within the SQL file.
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Download and open `emissions.sql` in MySQL Workbench  
 2. Ensure your MySQL settings allow `LOAD DATA INFILE`  
