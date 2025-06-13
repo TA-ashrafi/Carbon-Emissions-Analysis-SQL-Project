@@ -1,104 +1,76 @@
-# Carbon-Emissions-Analysis-SQL-Project
-A comprehensive SQL-based data analysis project focused on carbon emissions. Includes structured queries for historical trend analysis, emissions growth rates, and global comparisons using advanced SQL techniques like JOIN, CASE, and LAG. Perfect for learning and demonstrating real-world data analytics skills.
-
-
 # 📊 Carbon Emissions SQL Analysis Project
 
-![Banner](https://upload.wikimedia.org/wikipedia/commons/1/1e/Carbon_Emissions.jpg)
-
-> A professional SQL project focused on analyzing global carbon emissions data using advanced SQL techniques. This project demonstrates strong data manipulation, aggregation, and analytical skills, ideal for showcasing in a data analyst or data engineering portfolio.
-
----
-
-## Dataset Overview
-
-* **Source**: Cleaned CSV dataset based on Kaggle emissions data
-* **Columns**:
-
-  * `entity`: Name of country/region
-  * `code`: Country code
-  * `year`: Year of the record
-  * `annual_emissions_tonnes`: CO₂ emissions in tonnes (annually)
+![Banner Image](https://img.freepik.com/free-vector/flat-woman-analyzes-ways-reduce-co2-emissions-climate-impact-from-factories_387295953.htm)  
+*A real-world data analytics case study using SQL*
 
 ---
 
-## Tools & Technologies
+## 🌍 About the Project
 
-* **Database**: MySQL 8.0
-* **Environment**: MySQL Workbench / CLI
-* **Techniques Used**:
-
-  * SQL Aggregations (SUM, AVG)
-  * Window Functions (`LAG`)
-  * Subqueries
-  * Joins & Filtering
-  * Data import using `LOAD DATA INFILE`
+A comprehensive **SQL-based data analysis** project focused on global **carbon emissions**. This project includes structured queries for trend analysis, year-on-year emission growth, and international comparisons using advanced SQL functions like `JOIN`, `CASE`, and `LAG`.  
+✅ Perfect for learning and showcasing **real-world data analytics** and **SQL portfolio skills**.
 
 ---
 
-## Project Objectives
+## 📁 Dataset Overview
 
-This project aims to:
-
-* Analyze CO₂ emission trends globally and by country
-* Identify top contributors and historical growth
-* Derive year-on-year growth insights using window functions
-* Practice structured querying and result interpretation
-
----
-
-## SQL Tasks Performed
-
-1. **Top Countries by Total CO₂ Emissions**
-2. **Global Emissions Trends (Year-wise)**
-3. **India's Annual Emissions Overview**
-4. **Countries with Decreasing Emissions (2012–2017)**
-5. **Average Annual Emissions by Country**
-6. **First Year of Data Availability for Each Country**
-7. **Record High CO₂ Emission Event**
-8. **India's Emission Growth Rate (JOIN & LAG)**
-9. **Emissions Comparison: 1990 vs 2020**
-10. **Top 20 Countries by Total Emissions**
-
-Each task is clearly documented with SQL code and output-ready structure.
+- **Source**: Cleaned CSV dataset based on publicly available Kaggle CO₂ emissions data  
+- **Columns**:
+  - `entity`: Country or region name  
+  - `code`: Country code (ISO format)  
+  - `year`: Year of observation  
+  - `annual_emissions_tonnes`: CO₂ emissions in tonnes  
 
 ---
 
-## How to Use
+## 🛠️ Tools & Technologies
 
-1. Clone the repository and open the SQL script (`emissions.sql`) in MySQL Workbench or CLI.
-2. Import the dataset using `LOAD DATA INFILE` after enabling `secure_file_priv`.
-3. Run each task block step-by-step.
-4. Review query output and explore additional insights as needed.
-
----
-
-## Suggested Visual Enhancements
-
-* Use Power BI or Tableau for visual dashboards (optional).
-* Visuals like heatmaps, trend lines, or country rankings can enrich understanding.
+- **Database**: MySQL 8.0  
+- **Interface**: MySQL Workbench or Command Line  
+- **Techniques Used**:
+  - Aggregation (`SUM`, `AVG`)
+  - Joins and Filters
+  - Window Functions (`LAG`)
+  - Conditional logic with `CASE`
+  - File import using `LOAD DATA INFILE`
 
 ---
 
-## Skills Demonstrated
+## 🎯 Project Objectives
 
-* SQL Aggregation, Joins, Subqueries
-* Time Series Analysis
-* Window Functions (LAG, LEAD)
-* Clean query structuring
-* Business logic-based analytics
-
----
-
-## Author
-
-**Tahseen Ashrafi**
-Delhi, India
-EMAIL : [theperfectgamer100@gmail.com](mailto:theperfectgamer100@gmail.com)
-LINKDIN : [LinkedIn Profile](https://www.linkedin.com/in/tahseen-ashrafi-489a4825a/)
+- Analyze CO₂ emission trends globally and for individual countries  
+- Identify highest emitters and reduction patterns  
+- Calculate annual growth rates for selected regions  
+- Practice real-world SQL queries on a structured dataset  
 
 ---
 
-> Ideal for job applications, data analyst portfolios, and SQL practice repositories.
+## 📌 SQL Tasks Performed
 
-> “Let structured data tell the untold story.”
+1. **Top Countries by Total CO₂ Emissions**  
+2. **Global Emissions Trends (Year-wise)**  
+3. **India's Annual Emissions Overview**  
+4. **Countries with Decreasing Emissions (2012–2017)**  
+5. **Average Annual Emissions by Country**  
+6. **First Year of Emissions Data by Country**  
+7. **Highest Emission Year by a Country**  
+8. **Year-on-Year Growth for India** (JOIN + LAG)  
+9. **Emissions Comparison: 1990 vs 2020**  
+10. **Top 20 Emitting Countries of All Time**
+
+> 📂 Each task is separated and documented within the SQL file.
+
+---
+
+## 🚀 How to Use
+
+1. Download and open `emissions.sql` in MySQL Workbench  
+2. Ensure your MySQL settings allow `LOAD DATA INFILE`  
+3. Import the dataset file using:
+```sql
+LOAD DATA INFILE 'your_path/co2_emission.csv'
+INTO TABLE emissions
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
