@@ -10,7 +10,7 @@ A comprehensive SQL-based data analysis project focused on carbon emissions. Inc
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
 * **Source**: Cleaned CSV dataset based on Kaggle emissions data
 * **Columns**:
@@ -22,7 +22,7 @@ A comprehensive SQL-based data analysis project focused on carbon emissions. Inc
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * **Database**: MySQL 8.0
 * **Environment**: MySQL Workbench / CLI
@@ -36,7 +36,7 @@ A comprehensive SQL-based data analysis project focused on carbon emissions. Inc
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 This project aims to:
 
@@ -47,7 +47,7 @@ This project aims to:
 
 ---
 
-## ✅ SQL Tasks Performed
+## SQL Tasks Performed
 
 1. **Top Countries by Total CO₂ Emissions**
 2. **Global Emissions Trends (Year-wise)**
@@ -64,7 +64,7 @@ Each task is clearly documented with SQL code and output-ready structure.
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Clone the repository and open the SQL script (`emissions.sql`) in MySQL Workbench or CLI.
 2. Import the dataset using `LOAD DATA INFILE` after enabling `secure_file_priv`.
@@ -73,14 +73,14 @@ Each task is clearly documented with SQL code and output-ready structure.
 
 ---
 
-## 📈 Suggested Visual Enhancements
+## Suggested Visual Enhancements
 
 * Use Power BI or Tableau for visual dashboards (optional).
 * Visuals like heatmaps, trend lines, or country rankings can enrich understanding.
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 * SQL Aggregation, Joins, Subqueries
 * Time Series Analysis
@@ -90,15 +90,15 @@ Each task is clearly documented with SQL code and output-ready structure.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Tahseen Ashrafi**
-📍 Delhi, India
-📧 [theperfectgamer100@gmail.com](mailto:theperfectgamer100@gmail.com)
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/tahseen-ashrafi-489a4825a/)
+Delhi, India
+EMAIL : [theperfectgamer100@gmail.com](mailto:theperfectgamer100@gmail.com)
+LINKDIN : [LinkedIn Profile](https://www.linkedin.com/in/tahseen-ashrafi-489a4825a/)
 
 ---
 
-> ✅ Ideal for job applications, data analyst portfolios, and SQL practice repositories.
+> Ideal for job applications, data analyst portfolios, and SQL practice repositories.
 
-> 🌱 “Let structured data tell the untold story.”
+> “Let structured data tell the untold story.”
